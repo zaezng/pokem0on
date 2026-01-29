@@ -425,7 +425,7 @@ namespace pokem0on.ViewModels
                     StatusText = "Added: " + newPokemon.Name;
                     Search = "";
 
-                    // update games/battle
+                    // update games
                     GuessNext();
                     NextTypeQuiz();
                     InitBattleDefaults();
